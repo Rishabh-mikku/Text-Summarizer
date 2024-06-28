@@ -1,0 +1,6 @@
+HTTP requests status :
+1- 1xx -> Informational response
+2- 2xx -> Successfull
+3- 3xx -> Redirection
+4- 4xx -> Client Error
+5- 5xx -> Server Error
