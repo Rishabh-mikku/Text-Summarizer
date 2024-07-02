@@ -6,6 +6,13 @@
     <title>Text Summarizer</title>
 </head>
 <body>
-    <p>{{result}}</p>
+    <form action="{{url_for('Summarize')}}" method="post">
+        <textarea name="data" cols="30" rows="10" placeholder="Enter Your Data" required="required"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>Summarized Text</h3>
+    <textarea cols="30" rows="10" name="result">{{result}}</textarea>
 </body>
 </html>
